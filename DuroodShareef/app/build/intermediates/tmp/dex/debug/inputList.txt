@@ -1,0 +1,6 @@
+/home/mohammed/AndroidStudioProjects/DuroodShareef/app/build/intermediates/classes/debug
+/home/mohammed/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar
+/home/mohammed/AndroidStudioProjects/DuroodShareef/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar
+/home/mohammed/AndroidStudioProjects/DuroodShareef/app/libs/android-support-v13.jar
+/home/mohammed/AndroidStudioProjects/DuroodShareef/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar
+/home/mohammed/AndroidStudioProjects/DuroodShareef/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar
