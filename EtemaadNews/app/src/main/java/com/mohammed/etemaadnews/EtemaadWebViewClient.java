@@ -11,12 +11,13 @@ import android.webkit.WebViewClient;
 public class EtemaadWebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if(Uri.parse(url).getHost().length() == 0) {
-            return false;
+        if (!url.contains("etemaad")) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            view.getContext().startActivity(intent);
+            return true;
+        } else {
+            view.loadUrl(url);
         }
-
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-        view.getContext().startActivity(intent);
-        return true;
+        return false;
     }
 }
